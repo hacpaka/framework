@@ -3,7 +3,7 @@
 namespace Illuminate\Container;
 
 use Illuminate\Fixes\ICountable as Countable;
-use IteratorAggregate;
+use Illuminate\Fixes\IIteratorAggregate as  IteratorAggregate;;
 
 class RewindableGenerator implements Countable, IteratorAggregate
 {

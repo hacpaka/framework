@@ -5,7 +5,7 @@ namespace Illuminate\Http\Resources\Json;
 use Illuminate\Fixes\ICountable as Countable;
 use Illuminate\Http\Resources\CollectsResources;
 use Illuminate\Pagination\AbstractPaginator;
-use IteratorAggregate;
+use Illuminate\Fixes\IIteratorAggregate as  IteratorAggregate;;
 
 class ResourceCollection extends JsonResource implements Countable, IteratorAggregate
 {

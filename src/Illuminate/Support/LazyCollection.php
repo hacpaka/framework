@@ -6,7 +6,7 @@ use ArrayIterator;
 use Closure;
 use Illuminate\Support\Traits\EnumeratesValues;
 use Illuminate\Support\Traits\Macroable;
-use IteratorAggregate;
+use Illuminate\Fixes\IIteratorAggregate as  IteratorAggregate;;
 use stdClass;
 
 class LazyCollection implements Enumerable

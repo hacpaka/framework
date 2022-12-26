@@ -4,7 +4,7 @@ namespace Illuminate\Tests\Support;
 
 use ArrayIterator;
 use Illuminate\Support\Fluent;
-use IteratorAggregate;
+use Illuminate\Fixes\IIteratorAggregate as  IteratorAggregate;;
 use PHPUnit\Framework\TestCase;
 use ReflectionObject;
 
