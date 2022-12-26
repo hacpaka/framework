@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Foundation\Testing\TestResponse;
 use Illuminate\Http\Response;
-use JsonSerializable;
+use Illuminate\Fixes\IJsonSerializable as JsonSerializable;
 use Mockery as m;
 use PHPUnit\Framework\AssertionFailedError;
 use PHPUnit\Framework\ExpectationFailedException;

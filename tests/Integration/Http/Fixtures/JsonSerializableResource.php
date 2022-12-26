@@ -2,7 +2,7 @@
 
 namespace Illuminate\Tests\Integration\Http\Fixtures;
 
-use JsonSerializable;
+use Illuminate\Fixes\IJsonSerializable as JsonSerializable;
 
 class JsonSerializableResource implements JsonSerializable
 {

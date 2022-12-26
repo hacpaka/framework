@@ -5,7 +5,7 @@ namespace Illuminate\Support;
 use Illuminate\Fixes\IArrayAccess as ArrayAccess;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
-use JsonSerializable;
+use Illuminate\Fixes\IJsonSerializable as JsonSerializable;
 
 class Fluent implements Arrayable, ArrayAccess, Jsonable, JsonSerializable
 {

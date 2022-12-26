@@ -13,7 +13,7 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\HtmlString;
 use Illuminate\Support\LazyCollection;
 use InvalidArgumentException;
-use JsonSerializable;
+use Illuminate\Fixes\IJsonSerializable as JsonSerializable;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
