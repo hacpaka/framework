@@ -2,7 +2,7 @@
 
 namespace Illuminate\Validation\Concerns;
 
-use Countable;
+use Illuminate\Fixes\ICountable as Countable;
 use DateTime;
 use DateTimeInterface;
 use DateTimeZone;

@@ -2,7 +2,7 @@
 
 namespace Illuminate\Support;
 
-use Countable;
+use Illuminate\Fixes\ICountable as Countable;
 use Illuminate\Contracts\Support\MessageBag as MessageBagContract;
 
 /**

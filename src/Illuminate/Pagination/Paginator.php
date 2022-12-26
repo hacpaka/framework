@@ -3,7 +3,7 @@
 namespace Illuminate\Pagination;
 
 use Illuminate\Fixes\IArrayAccess as ArrayAccess;
-use Countable;
+use Illuminate\Fixes\ICountable as Countable;
 use Illuminate\Contracts\Pagination\Paginator as PaginatorContract;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;

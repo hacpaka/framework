@@ -3,7 +3,7 @@
 namespace Illuminate\Routing;
 
 use ArrayIterator;
-use Countable;
+use Illuminate\Fixes\ICountable as Countable;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Arr;
