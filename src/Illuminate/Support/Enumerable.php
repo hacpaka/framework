@@ -2,13 +2,13 @@
 
 namespace Illuminate\Support;
 
-use Countable;
+use Illuminate\Fixes\ICountable;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
 use IteratorAggregate;
 use JsonSerializable;
 
-interface Enumerable extends Arrayable, Countable, IteratorAggregate, Jsonable, JsonSerializable
+interface Enumerable extends Arrayable, ICountable, IteratorAggregate, Jsonable, JsonSerializable
 {
     /**
      * Create a new collection instance if the value isn't one already.
