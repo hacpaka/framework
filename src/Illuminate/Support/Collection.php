@@ -2,13 +2,13 @@
 
 namespace Illuminate\Support;
 
-use Illuminate\Fixes\IArrayAccess;
+use Illuminate\Fixes\IArrayAccess as ArrayAccess;
 use ArrayIterator;
 use Illuminate\Support\Traits\EnumeratesValues;
 use Illuminate\Support\Traits\Macroable;
 use stdClass;
 
-class Collection implements IArrayAccess, Enumerable
+class Collection implements ArrayAccess, Enumerable
 {
     use EnumeratesValues, Macroable;
 

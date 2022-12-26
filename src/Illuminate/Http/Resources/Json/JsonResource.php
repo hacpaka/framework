@@ -2,7 +2,7 @@
 
 namespace Illuminate\Http\Resources\Json;
 
-use ArrayAccess;
+use Illuminate\Fixes\IArrayAccess as ArrayAccess;
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Routing\UrlRoutable;
 use Illuminate\Contracts\Support\Arrayable;

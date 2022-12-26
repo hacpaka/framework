@@ -2,7 +2,7 @@
 
 namespace Illuminate\Container;
 
-use ArrayAccess;
+use Illuminate\Fixes\IArrayAccess as ArrayAccess;
 use Closure;
 use Exception;
 use Illuminate\Contracts\Container\BindingResolutionException;

@@ -2,7 +2,7 @@
 
 namespace Illuminate\Support;
 
-use ArrayAccess;
+use Illuminate\Fixes\IArrayAccess as ArrayAccess;
 use Illuminate\Support\Traits\Macroable;
 use InvalidArgumentException;
 

@@ -2,7 +2,7 @@
 
 namespace Illuminate\Http;
 
-use ArrayAccess;
+use Illuminate\Fixes\IArrayAccess as ArrayAccess;
 use Closure;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Arr;

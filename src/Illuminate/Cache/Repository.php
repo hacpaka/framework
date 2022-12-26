@@ -2,7 +2,7 @@
 
 namespace Illuminate\Cache;
 
-use ArrayAccess;
+use Illuminate\Fixes\IArrayAccess as ArrayAccess;
 use BadMethodCallException;
 use Closure;
 use DateTimeInterface;

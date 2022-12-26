@@ -2,7 +2,7 @@
 
 namespace Illuminate\View;
 
-use ArrayAccess;
+use Illuminate\Fixes\IArrayAccess as ArrayAccess;
 use BadMethodCallException;
 use Exception;
 use Illuminate\Contracts\Support\Arrayable;

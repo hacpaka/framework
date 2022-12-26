@@ -2,7 +2,7 @@
 
 namespace Illuminate\Support;
 
-use ArrayAccess;
+use Illuminate\Fixes\IArrayAccess as ArrayAccess;
 use ArrayObject;
 
 class Optional implements ArrayAccess

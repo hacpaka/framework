@@ -2,7 +2,7 @@
 
 namespace Illuminate\Tests\Support;
 
-use ArrayAccess;
+use Illuminate\Fixes\IArrayAccess as ArrayAccess;
 use ArrayIterator;
 use ArrayObject;
 use CachingIterator;

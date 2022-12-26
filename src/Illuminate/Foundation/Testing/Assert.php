@@ -2,7 +2,7 @@
 
 namespace Illuminate\Foundation\Testing;
 
-use ArrayAccess;
+use Illuminate\Fixes\IArrayAccess as ArrayAccess;
 use Illuminate\Foundation\Testing\Constraints\ArraySubset;
 use PHPUnit\Framework\Assert as PHPUnit;
 use PHPUnit\Framework\Constraint\DirectoryExists;

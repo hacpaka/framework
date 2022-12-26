@@ -2,7 +2,7 @@
 
 namespace Illuminate\Database\Eloquent;
 
-use ArrayAccess;
+use Illuminate\Fixes\IArrayAccess as ArrayAccess;
 use Faker\Generator as Faker;
 use Symfony\Component\Finder\Finder;
 

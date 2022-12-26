@@ -2,7 +2,7 @@
 
 namespace Illuminate\Tests\Support;
 
-use ArrayAccess;
+use Illuminate\Fixes\IArrayAccess as ArrayAccess;
 use Illuminate\Support\Facades\Facade;
 use Mockery as m;
 use Mockery\MockInterface;
